@@ -9,7 +9,7 @@
 }
 body {
 	background-image: url(https://cdn.pixabay.com/photo/2016/11/30/12/16/question-mark-1872665_960_720.jpg);
-	background-size: 400% 400%;
+	background-size: cover;
 	animation: gradient 20s ease infinite;
 	height: 100vh;
 }
@@ -33,17 +33,18 @@ body {
     max-width: 100%;
 }
 .card{ 
-    background-color: rgba(252, 251, 251, 0);
+    background-color: rgba(244, 238, 238, 0);
     border-radius: 10px;
     padding: 2rem;
     margin: 1rem;
-    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75) ;
-    color: aliceblue;
+    box-shadow: 10px 10px 10px 10px rgba(238, 221, 210, 0.75) ;
+    color: rgb(255, 255, 255);
+    width: 30vw;
 }
 h5{
     font-size: 1.6rem;
     font-family: 'Cinzel', serif;
-    color: darkred;
+    color: rgb(235, 74, 6);
 }
 .ques{
     display: flex;
@@ -76,4 +77,10 @@ p{
     font-weight: 400;
     font-family: 'Pathway Gothic One', sans-serif;
     text-indent: 1.25rem;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid red;
 }
